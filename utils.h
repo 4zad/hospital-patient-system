@@ -1,6 +1,6 @@
-/* 
+/*
 Module: utils
-Filename: utils.cpp
+Filename: utils.h
 Version 1.0
 Author:	Muhammad Ahmed
 */

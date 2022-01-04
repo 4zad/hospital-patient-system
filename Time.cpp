@@ -1,4 +1,4 @@
-/*
+/* 
 Module: Time
 Filename: Time.cpp
 Version 1.0
@@ -7,9 +7,7 @@ Author:	Muhammad Ahmed
 
 #include "Time.h"
 #include "utils.h"
-
 using namespace std;
-
 namespace sdds
 {
 	Time& Time::setToNow()
@@ -25,15 +23,15 @@ namespace sdds
 
 	std::ostream& Time::write(std::ostream& ostr) const
 	{
-		ostr.width(2);
-		ostr.fill('0');
-		ostr << m_min / 60;
+		cout.width(2);
+		cout.fill('0');
+		cout << m_min / 60;
 
-		ostr << ":";
+		cout << ":";
 
-		ostr.width(2);
-		ostr.fill('0');
-		ostr << m_min % 60;
+		cout.width(2);
+		cout.fill('0');
+		cout << m_min % 60;
 
 		return ostr;
 	}

@@ -130,19 +130,19 @@ namespace sdds
 				{
 					cout << "[";
 
-					cout.width(2);
-					cout.fill('0');
-					cout.setf(ios::fixed);
+					//cout.width(2);
+					//cout.fill('0');
+					//cout.setf(ios::fixed);
 					cout << min;
-					cout.unsetf(ios::fixed);
+					//cout.unsetf(ios::fixed);
 
 					cout << " <= value <= ";
 
-					cout.width(2);
-					cout.fill('0');
-					cout.setf(ios::fixed);
+					//cout.width(2);
+					//cout.fill('0');
+					//cout.setf(ios::fixed);
 					cout << max;
-					cout.unsetf(ios::fixed);
+					//cout.unsetf(ios::fixed);
 
 					cout << "]: ";
 				}
