@@ -2,7 +2,7 @@
 Module: IOAble
 Filename: IOAble.h
 Version 1.0
-Author:	Muhammad Ahmed
+Author	Muhammad Ahmed
 */
 
 #ifndef SDDS_IO_ABLE_H

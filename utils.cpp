@@ -151,6 +151,8 @@ namespace sdds
 		}
 		while (flag);
 
+		cin.ignore();
+
 		return intValue;
 	}
 
@@ -164,8 +166,8 @@ namespace sdds
 			cout << prompt;
 		}
 
-		cin.clear();
-		getline(cin, strValue, delimiter);
+		istr.clear();
+		getline(istr, strValue, delimiter);
 
 		strPointer = new char[strValue.length() + 1];
 		strcpy(strPointer, strValue.c_str());

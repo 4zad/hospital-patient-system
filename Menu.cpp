@@ -2,7 +2,7 @@
 Module: Menu
 Filename: Menu.cpp
 Version 1.0
-Author:	Muhammad Ahmed
+Author	Muhammad Ahmed
 */
 
 #define _CRT_SECURE_NO_WARNINGS

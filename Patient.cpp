@@ -104,7 +104,7 @@ namespace sdds
 		*/
 		delete[] m_name;
 		m_name = getcstr("Name: ", in, '\n');
-		m_ohip = getInt(100000000, 999999999, "OHIP:", "Invalid OHIP Number, ", true);
+		m_ohip = getInt(100000000, 999999999, "OHIP: ", "Invalid OHIP Number, ", true);
 		return in;
 	}
 }
