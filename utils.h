@@ -1,4 +1,4 @@
-/*
+/* 
 Module: utils
 Filename: utils.h
 Version 1.0
@@ -30,6 +30,17 @@ namespace sdds
 		std::istream& istr = std::cin,  // the Stream to read from
 		char delimiter = '\n'    // Delimiter to mark the end of data
 	);
+
+	template <typename type>
+	void removeDynamicElement(type* array[], int index, int& size)
+	{
+		delete array[index];
+		for (int j = index; j < size; j++)
+		{
+			array[j] = array[j + 1];
+		}
+		size--;
+	}
 }
 
 #endif // !SDDS_UTILS_H_

@@ -2,7 +2,7 @@
 Module: CovidPatient
 Filename: CovidPatient.h
 Version 1.0
-Author	Muhammad Ahmed
+Author:	Muhammad Ahmed
 */
 
 #ifndef SDDS_COVIDPATIENT_H_

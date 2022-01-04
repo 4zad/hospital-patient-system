@@ -2,7 +2,7 @@
 Module: CovidPatient
 Filename: CovidPatient.cpp
 Version 1.0
-Author	Muhammad Ahmed
+Author:	Muhammad Ahmed
 */
 
 #include <iostream>
