@@ -165,11 +165,11 @@ namespace sdds
 		}
 
 		cin.clear();
-		cin.ignore(1000, '\n');
-		getline(cin, strValue, '\n');
+		getline(cin, strValue, delimiter);
 
 		strPointer = new char[strValue.length() + 1];
 		strcpy(strPointer, strValue.c_str());
+		strPointer[strValue.length()] = '\0';
 
 		return strPointer;
 	}
